@@ -5,14 +5,14 @@ const Cart = ({handleCart,cartProduuts,handleDelete,amount})=>{
     // console.log(cartProduuts)
 
     return(
-        <div className='container-fluid position-absolute bg-secondary bg-opacity-50 d-flex justify-content-center ' style={{height:'100vh'}}>
+        <div className='container-fluid position-absolute bg-secondary bg-opacity-50 d-flex justify-content-center ' style={{minHeight:'100vh'}}>
         <div className='container bg-white  m-5 rounded text-center overflow-scroll  '>
             <div className='navbar px-5 '>
               <h2 className='navbar-brand'>Cart</h2>
               <button className='btn-close' onClick={handleCart}></button>
             </div>
             <div className='p-4 table-responsive-sm '>
-              <table className='table table-striped table-sm  '>
+              <table className='table table-hover '>
                 <thead>
                   <tr>
                     <th>Image</th>
@@ -28,7 +28,7 @@ const Cart = ({handleCart,cartProduuts,handleDelete,amount})=>{
                             
                             return(
                                 <tr key={product.id}>
-                                    <td><img src={product.image} alt={product.brand} width={200} height={200}/></td>
+                                    <td><img src={product.image} alt={product.brand} width={100} height={100}/></td>
                                     <td className=" text-center ">{product.phone_name}</td>
                                     <td>{product.brand}</td>
                                     <td>{product.mrp}</td>

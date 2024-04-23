@@ -1,7 +1,7 @@
-import vivo from './images/vivo.png'
-import samsung from './images/samsung.png'
-import oneplus from './images/oneplus.png'
-import iphone from './images/iphone.png'
+// import vivo from './images/vivo.png'
+// import samsung from './images/samsung.png'
+// import oneplus from './images/oneplus.png'
+// import iphone from './images/iphone.png'
 const data = [
     {
         id:1,

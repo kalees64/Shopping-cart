@@ -39,6 +39,7 @@ function App() {
     return Number(total)
   })
 
+    // const [patment,setPayment] = useState(false)
 
   return (
     <div className='d-flex flex-column cart position-relative '>
@@ -62,6 +63,8 @@ function App() {
         amount={total}
         />
       }
+
+      
 
     </div>
   );
